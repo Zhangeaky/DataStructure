@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/zhangeaky/DataStructure/BinaryTree/preorder.cc
+/home/zhangeaky/DataStructure/BinaryTree/preorder/preorder.cc
 stdio.h
 -
 stack

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zhangeaky/DataStructure/BinaryTree/preorder.cc" "/home/zhangeaky/DataStructure/BinaryTree/build/CMakeFiles/preorder.dir/preorder.cc.o"
+  "/home/zhangeaky/DataStructure/BinaryTree/preorder/preorder.cc" "/home/zhangeaky/DataStructure/BinaryTree/preorder/build/CMakeFiles/preorder.dir/preorder.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

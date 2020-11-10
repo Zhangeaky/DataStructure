@@ -48,10 +48,10 @@ RM = /opt/cmake-3.13.0/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zhangeaky/DataStructure/BinaryTree
+CMAKE_SOURCE_DIR = /home/zhangeaky/DataStructure/BinaryTree/preorder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zhangeaky/DataStructure/BinaryTree/build
+CMAKE_BINARY_DIR = /home/zhangeaky/DataStructure/BinaryTree/preorder/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangeaky/DataStructure/BinaryTree/build/CMakeFiles /home/zhangeaky/DataStructure/BinaryTree/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangeaky/DataStructure/BinaryTree/preorder/build/CMakeFiles /home/zhangeaky/DataStructure/BinaryTree/preorder/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangeaky/DataStructure/BinaryTree/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangeaky/DataStructure/BinaryTree/preorder/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,20 @@ preorder/fast:
 	$(MAKE) -f CMakeFiles/preorder.dir/build.make CMakeFiles/preorder.dir/build
 .PHONY : preorder/fast
 
-preorder.o: preorder.cc.o
-
+# target to build an object file
+preorder.o:
+	$(MAKE) -f CMakeFiles/preorder.dir/build.make CMakeFiles/preorder.dir/preorder.o
 .PHONY : preorder.o
 
-# target to build an object file
-preorder.cc.o:
-	$(MAKE) -f CMakeFiles/preorder.dir/build.make CMakeFiles/preorder.dir/preorder.cc.o
-.PHONY : preorder.cc.o
-
-preorder.i: preorder.cc.i
-
+# target to preprocess a source file
+preorder.i:
+	$(MAKE) -f CMakeFiles/preorder.dir/build.make CMakeFiles/preorder.dir/preorder.i
 .PHONY : preorder.i
 
-# target to preprocess a source file
-preorder.cc.i:
-	$(MAKE) -f CMakeFiles/preorder.dir/build.make CMakeFiles/preorder.dir/preorder.cc.i
-.PHONY : preorder.cc.i
-
-preorder.s: preorder.cc.s
-
-.PHONY : preorder.s
-
 # target to generate assembly for a file
-preorder.cc.s:
-	$(MAKE) -f CMakeFiles/preorder.dir/build.make CMakeFiles/preorder.dir/preorder.cc.s
-.PHONY : preorder.cc.s
+preorder.s:
+	$(MAKE) -f CMakeFiles/preorder.dir/build.make CMakeFiles/preorder.dir/preorder.s
+.PHONY : preorder.s
 
 # Help Target
 help:

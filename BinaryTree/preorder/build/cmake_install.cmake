@@ -1,4 +1,4 @@
-# Install script for directory: /home/zhangeaky/DataStructure/BinaryTree
+# Install script for directory: /home/zhangeaky/DataStructure/BinaryTree/preorder
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/zhangeaky/DataStructure/BinaryTree/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/zhangeaky/DataStructure/BinaryTree/preorder/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

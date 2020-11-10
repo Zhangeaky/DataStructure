@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/preorder.dir/preorder.cc.o"
+  "CMakeFiles/preorder.dir/preorder.o"
   "preorder.pdb"
   "preorder"
 )

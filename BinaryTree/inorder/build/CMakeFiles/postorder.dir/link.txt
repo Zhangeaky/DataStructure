@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/postorder.dir/postorder/postorder.o  -o postorder 

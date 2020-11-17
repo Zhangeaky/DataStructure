@@ -1,0 +1,5 @@
+/home/zhangeaky/DataStructure/BinaryTree/postorder/build/CMakeFiles/rebuild_cache.dir
+/home/zhangeaky/DataStructure/BinaryTree/postorder/build/CMakeFiles/edit_cache.dir
+/home/zhangeaky/DataStructure/BinaryTree/postorder/build/CMakeFiles/postorder.dir
+/home/zhangeaky/DataStructure/BinaryTree/postorder/build/CMakeFiles/preorder.dir
+/home/zhangeaky/DataStructure/BinaryTree/postorder/build/CMakeFiles/inorder.dir

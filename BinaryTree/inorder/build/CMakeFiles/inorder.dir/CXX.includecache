@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../..//Treenode.hpp
+
+/home/zhangeaky/DataStructure/BinaryTree/inorder/inorder.cc
+iostream
+-
+vector
+-
+Treenode.hpp
+/home/zhangeaky/DataStructure/BinaryTree/inorder/Treenode.hpp
+

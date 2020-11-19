@@ -11,9 +11,9 @@ class process{
     public:
 
     process(){
+
         cout<<"进程提交"<<endl;
         
-
     }
     ~process(){
 

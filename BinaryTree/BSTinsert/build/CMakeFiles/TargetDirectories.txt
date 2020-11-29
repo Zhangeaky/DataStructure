@@ -1,0 +1,3 @@
+/home/zhangeaky/DataStructure/BinaryTree/BSTinsert/build/CMakeFiles/rebuild_cache.dir
+/home/zhangeaky/DataStructure/BinaryTree/BSTinsert/build/CMakeFiles/BSTinsert.dir
+/home/zhangeaky/DataStructure/BinaryTree/BSTinsert/build/CMakeFiles/edit_cache.dir

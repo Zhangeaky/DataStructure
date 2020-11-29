@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/BSTinsert.dir/BSTinsert/BSTinsert.o  -o BSTinsert 

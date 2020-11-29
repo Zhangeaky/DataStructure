@@ -1,3 +1,4 @@
+#include<vector>
 class Treenode
 {
 public:
@@ -5,11 +6,22 @@ public:
 
         this->value = value;
     }
+    Treenode(){}
 
     ~Treenode(){}
    
     int value;
-    Treenode* left = nullptr;
-    Treenode* right = nullptr; 
+    // Treenode* left = nullptr;
+    // Treenode* right = nullptr; 
+    Treenode* left;
+    Treenode* right; 
 };
+
+vector<int> output(Treenode& root){
+    
+
+
+
+
+}
 

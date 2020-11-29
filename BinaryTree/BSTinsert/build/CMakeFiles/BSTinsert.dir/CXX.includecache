@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../..//Treenode.hpp
+
+/home/zhangeaky/DataStructure/BinaryTree/BSTinsert/BSTinsert.cc
+Treenode.hpp
+/home/zhangeaky/DataStructure/BinaryTree/BSTinsert/Treenode.hpp
+iostream
+-
+

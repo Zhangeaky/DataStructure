@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/inorder.dir/inorder/inorder.o  -o inorder 

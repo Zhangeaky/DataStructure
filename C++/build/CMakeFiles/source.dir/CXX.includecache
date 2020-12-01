@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhangeaky/DataStructure/C++/main.cc
+iostream
+-
+set
+-
+vector
+-
+array
+-
+deque
+-
+list
+-
+forward_list
+-
+map
+-
+unordered_map
+-
+

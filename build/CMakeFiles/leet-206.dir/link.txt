@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/leet-206.dir/LinkedList/leet-206.o  -o ../bin/leet-206 

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/leet-024.dir/LinkedList/leet-024.o  -o ../bin/leet-024 

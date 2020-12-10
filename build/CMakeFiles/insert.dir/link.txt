@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/insert.dir/Sorting/comparison_sorting/insert.o  -o ../bin/insert 

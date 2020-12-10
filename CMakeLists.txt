@@ -6,5 +6,9 @@ add_executable(twosum HashTable/leet-001.cc)
 add_executable(source C++/main.cc)
 add_executable(leet-206 LinkedList/leet-206.cc)
 add_executable(leet-024 LinkedList/leet-024.cc)
+add_executable(leet-024 LinkedList/leet-024.cc)
+add_executable(insert Sorting/comparison_sorting/insert.cc)
+
+
 
 
